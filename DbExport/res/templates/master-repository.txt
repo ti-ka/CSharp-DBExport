@@ -1,0 +1,21 @@
+﻿using System.Linq.Expressions;
+using Omnidek.DataLayer.Context;
+using Omnidek.DataLayer.GenericRepository;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Omnidek.Models.MasterEntities;
+using Omnidek.DataLayer.Interfaces;
+
+using Omnidek.DataLayer.Interfaces.{{folderName}};
+using Omnidek.Models.MasterEntities.{{folderName}};
+
+namespace Omnidek.DataLayer.MasterRepository.{{folderName}}
+{
+    public class {{class}}Repository : GenericRepository<{{class}}>, I{{class}}Repository {
+        public {{class}}Repository(OmnidekContext context) : base(context)
+        {
+            
+        }
+    }
+}

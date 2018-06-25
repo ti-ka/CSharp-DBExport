@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace {{namespace}}.{{folderName}}
+{
+    [Table("{{table}}")]
+    public class {{class}}{{extend}}
+    {
+        public {{class}}()
+        {
+            {{constructor}}
+		}
+        {{props}}
+    }
+}

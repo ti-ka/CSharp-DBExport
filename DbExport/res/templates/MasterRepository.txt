@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using Omnidek.DataLayer.Context;
+using Omnidek.DataLayer.GenericRepository;
+using Omnidek.DataLayer.MasterRepository.Interfaces;
+using Omnidek.Models.MasterEntities;
+
+namespace Omnidek.DataLayer
+{
+    public class {{class}}Repository : GenericRepository<{{class}}>, I{{class}}Repository {
+        public {{class}}Repository(OmnidekContext context) : base(context)
+        {
+            
+        }
+    }
+}

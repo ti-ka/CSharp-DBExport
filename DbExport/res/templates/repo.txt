@@ -1,0 +1,12 @@
+﻿using Omnidek.DataLayer.Interfaces;
+using Omnidek.Models.Entities;
+
+namespace Omnidek.DataLayer
+{
+    public class {{class}}Repository : GenericRepository<{{class}}>, I{{class}}Repository {
+        public {{class}}Repository(OmnidekContext context) : base(context)
+        {
+            
+        }
+    }
+}

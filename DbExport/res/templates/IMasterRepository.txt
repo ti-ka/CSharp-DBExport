@@ -1,0 +1,10 @@
+﻿using System.Collections.Generic;
+using Omnidek.DataLayer.GenericRepository;
+using Omnidek.Models.MasterEntities;
+
+namespace Omnidek.DataLayer.Interfaces
+{
+    public interface I{{class}}Repository : IGenericRepository<{{class}}>
+    {
+    }
+}

@@ -1,0 +1,8 @@
+﻿using Omnidek.Models.Entities;
+
+namespace Omnidek.DataLayer.Interfaces
+{
+    public interface I{{class}}Repository : IGenericRepository<{{class}}>
+    {
+    }
+}
